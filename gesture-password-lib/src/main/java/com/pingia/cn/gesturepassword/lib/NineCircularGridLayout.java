@@ -52,7 +52,6 @@ public class NineCircularGridLayout extends RelativeLayout {
     private int mNormalCircularStrokeWidth;
     private int mLineToPathStrokeWidth;
 
-    // TODO: 2017/9/29 参数配置待优化。考虑从xml中读取属性
     private Path circularViewLinePath;
     private Paint mLinePathPaint;
     private Path linepath2;
