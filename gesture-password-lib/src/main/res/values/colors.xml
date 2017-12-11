@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_little_normal_color">#aaaaaa</color>
+    <color name="default_little_fill_color">#3e2b8c</color>
+    <color name="default_little_lineto_color">#3e2b8c</color>
+    <color name="default_normal_color">#cccccc</color>
+    <color name="default_finger_on_color">#3e2b8c</color>
+    <color name="default_finger_lineto_color">#3e2b8c</color>
+    <color name="default_wrong_lineto_color">#FF4500</color>
+</resources>

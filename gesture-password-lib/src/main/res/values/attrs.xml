@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GesturePasswordView">
+        <attr name="minFingerLineToNums" format="integer"/>
+        <attr name="little_normalColor" format="color"/>
+        <attr name="little_fillColor" format="color"/>
+        <attr name="little_lineToWidth" format="dimension"/>
+        <attr name="little_normalCircularLineWidth" format="dimension"/>
+        <attr name="little_LineToColor" format="color"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="fingerOnColor" format="color"/>
+        <attr name="fingerLineToColor" format="color"/>
+        <attr name="wrongLineToColor" format="color"/>
+        <attr name="normalCircularLineWidth" format="dimension"/>
+        <attr name="fingerLineToWidth" format="dimension"/>
+
+    </declare-styleable>
+</resources>
