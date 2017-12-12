@@ -36,11 +36,11 @@ Usage
       android:id="@+id/nine_grid_little_layout"
       android:layout_width="80dp"
       android:layout_height="wrap_content"
-      app:little_normalColor = "#aaaaaa" <!-- 指引图的默认圆圈颜色 -->
-      app:little_fillColor = "#32e86b" <!-- 指引图的填充颜色 -->
-      app:little_lineToWidth = "6dp" <!-- 指引图连线粗细 -->
-      app:little_normalCircularLineWidth = "6dp" <!-- 指引图圆环描线粗细 -->
-      app:little_LineToColor="#32e86b" <!--指引图连线颜色-->
+      app:little_normalColor = "#aaaaaa" <!-- 指引图圆圈的初始颜色 -->
+      app:little_fillColor = "#32e86b" <!-- 指引图圆圈的填充颜色 -->
+      app:little_lineToWidth = "6dp" <!-- 指引图圆圈之间的连线粗细 -->
+      app:little_normalCircularLineWidth = "6dp" <!-- 指引图圆圈描边的粗细 -->
+      app:little_LineToColor="#32e86b" <!--指引图圆圈之间的连线颜色-->
 />
 
 <com.pingia.cn.gesturepassword.lib.NineCircularGridLayout
@@ -49,12 +49,12 @@ Usage
       android:layout_height="wrap_content"
       android:layout_centerInParent="true"
       app:minFingerLineToNums = "4" <!-- 默认最小连接需要四个-->
-      app:normalColor = "#cccccc" <!-- 手势图的初始圆圈颜色 -->
-      app:fingerOnColor = "#32e86b" <!-- 手势按下去的时候圆圈颜色 -->
-      app:fingerLineToColor = "#32e86b" <!-- 手势图的连线颜色 -->
-      app:wrongLineToColor = "#ff0000" <!-- 手势图不符合要求时，错误连线颜色 -->
-      app:normalCircularLineWidth="6dp" <!--手势图连线颜色-->
-      app:fingerLineToWidth = "6dp" <!--手势图的连线粗细 -->
+      app:normalColor = "#cccccc" <!-- 手势图圆圈的初始颜色 -->
+      app:fingerOnColor = "#32e86b" <!-- 手势按下去的时候圆圈改变的颜色 -->
+      app:fingerLineToColor = "#32e86b" <!-- 手势图圆圈之间的连线颜色 -->
+      app:wrongLineToColor = "#ff0000" <!-- 手势图不符合要求时，圆圈之间的连线颜色 -->
+      app:normalCircularLineWidth="6dp" <!--手势图圆圈描边的粗细-->
+      app:fingerLineToWidth = "6dp" <!--手势图圆圈之间的连线粗细 -->
                                                          
     />
 ```
