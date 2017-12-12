@@ -3,7 +3,8 @@ GesturePasswordDemo
 
 this is a GesturePassword View component. you can use it to make user's login more convenient.
 
-![GesturePasswordDemo](http://github.com/pingia/GesturePasswordDemo/blob/master/screenshots/gesture_set.png)
+![GesturePasswordDemo](https://github.com/pingia/GesturePasswordDemo/raw/master/screenshots/gesture_login.png)
+![GesturePasswordDemo](https://github.com/pingia/GesturePasswordDemo/raw/master/screenshots/gesture_set.png)
 
 if you need gesture setting page,you need use  View class NineCircularGridLayout.java and NineCircularLittleGridLayout.java.
 the NineCircularGridLayout will allow you typed the gesture, and the NineCircularLittleGridLayout will give you the feedback of the gesture you typed.
